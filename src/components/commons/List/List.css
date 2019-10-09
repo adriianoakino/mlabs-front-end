@@ -1,0 +1,84 @@
+.media-body {
+    align-self: center;
+}
+
+ul#listPages {
+    background: #EFEFEF;
+    max-height: 200px;
+    min-height: 190px;
+    overflow: hidden;
+    overflow-y: scroll;
+    text-decoration: none;
+    right: 20px;
+}
+
+#listPages img {
+    width: 4rem;
+    height: 4rem;
+    margin: 10px 18px 10px 18px;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #979797;
+}
+
+#listPages p {
+    margin: 0 !important;
+}
+
+.title {
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 14px;
+    color: #000;
+}
+.description {
+    font-family: 'Arial';
+    font-size: 10px;
+    color: #878787;
+}
+
+.btn-light {
+    color: #737373 !important;
+}
+
+ul li:after {
+    content: "";
+    display: block;
+    height: 1px;
+    margin: 0px 18px 0px 18px;
+    
+    background: #F8F8F8;
+}
+
+button {
+    font-weight: 100 !important;
+    font-size: 12px !important;
+}
+
+
+#listPages::-webkit-scrollbar {
+    width: 0.3em;
+    scroll-margin-inline-end: 10px;
+}
+ 
+#listPages::-webkit-scrollbar-track {
+    -webkit-box-shadow: none;
+    max-height: 5px;
+}
+ 
+#listPages::-webkit-scrollbar-thumb {
+    background-color: #949494;
+    border-radius: 1em;
+    width: 6px;
+    height: 6px;
+
+}
+
+input[type=radio   ]:checked {
+
+    background: #000;
+    background-color: red;
+    height: 30px;
+
+}

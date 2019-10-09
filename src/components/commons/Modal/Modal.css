@@ -1,0 +1,65 @@
+.modal-header {
+    border: none !important;
+    margin: 0px 20px 0 20px;
+}
+
+.row h5, .row h4 {
+    border: 2px solid #CCCCCC;
+    border-radius: 100%;
+    padding: 3px 5px 5px 5px;
+}
+
+.row span {
+    margin-left: 10px;   
+    letter-spacing: -1px;
+}
+
+.modal-body span {
+    font-size: 12px;
+    color: #808284;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.description-link {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #4A8FE2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.modal-footer {
+    justify-content: space-between !important;
+    background: #F8F8F8;
+}
+.modal-content {
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: .5px 2px .5px .5px rgba(0, 0, 0 , 0.1);
+}
+
+button {
+    font-family: PRIME_LIGHT !important;
+}
+
+.text-description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12;
+}
+
+.btn-primary {
+    background: #4A8FE2 !important;
+    border: none;
+    padding: 8px 25px 8px 30px !important;
+}
+
+.btn-primary:hover {
+    background: #0069d9;
+    border: none;
+    transition: all 0.1s ease-out 0.1s;
+    transform: scale(1.1);
+}
