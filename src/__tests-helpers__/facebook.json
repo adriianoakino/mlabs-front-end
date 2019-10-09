@@ -1,0 +1,23 @@
+ [
+    {
+        "id": 1,
+        "name": "Pet Shop do Arnaldo",
+        "url": "https://www.facebook.com/pet-shop-do-arnaldo",
+        "picture": "https://picsum.photos/id/237/200/300",
+        "channel_key": "facebook"
+      },
+      {
+        "id": 2,
+        "name": "Buffet Alegria Geral",
+        "url": "https://www.facebook.com/buffet-alegria-geral",
+        "picture": "https://picsum.photos/id/1042/3456/5184",
+        "channel_key": "facebook"
+      },
+      {
+        "id": 3,
+        "name": "Mecânica do Vitão",
+        "url": "https://www.facebook.com/mecanic-do-vitao",
+        "picture": "https://picsum.photos/id/1071/200/200",
+        "channel_key": "facebook"
+      }
+  ]
