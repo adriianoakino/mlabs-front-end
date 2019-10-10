@@ -22,7 +22,10 @@ export default props => (
                                     <p className = "description"> { item.url  }</p>
                                 </Col>
                                 <Col sm = { 2 } className = "align-right" >
-                                    <input type = { 'radio' } id = { index } name = { item.channel_key } value = { index } onClick = { props.change } />
+                                   <div className = "radio-button">
+                                        <input type = { 'radio' } id = { index } name = { item.channel_key } value = { index } onClick = { props.change } />
+                                        <label for = { index } ></label>
+                                   </div>
                                 </Col>
                             </Row>
                         </Media.Body> 
