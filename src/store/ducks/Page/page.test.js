@@ -40,9 +40,7 @@ describe('actions creators', () => {
         }))
         .toEqual({ data : { channel: mockChannel, channels: mockChannels } });
     });
-
-
-
+    
 
     it('start fetching should dispatch a PAGES_CHANNELS action', () => {
 
