@@ -69,6 +69,6 @@ export function* selectPage(action) {
             yield put({ type: ModalTypes.CLOSE_MODAL, modalOptions: { show: false }, error : false });
         }
     } catch(error) {
-        console.log("EERROR : ", error)
+        throw error;
     }
 }
