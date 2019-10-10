@@ -10,7 +10,7 @@ const Home = () =>  (
     <>
         <header id = "">
             <div id="header-account-info">
-               <h2 className = "left-right"><a> 07/10/2019 </a></h2>
+               <h2 className = "left-right"><a> 09/10/2019 22:00:00 </a></h2>
                <h2 className = ""><a> {_.toUpper('minha conta')} </a></h2>
                <h2 className = "left-right"><a> <FaCog /> </a></h2>
             </div>
